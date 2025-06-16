@@ -58,6 +58,7 @@ cask "game-porting-toolkit" do
 
   caveats <<~EOS
     Please follow the instructions in the Game Porting Toolkit README to complete installation.
+    This cask is pinned to v2.1. Use github.com/Gcenx/homebrew-wine/ for up to date releases.
   EOS
   caveats do
     requires_rosetta
