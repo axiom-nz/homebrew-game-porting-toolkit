@@ -1,15 +1,7 @@
 cask "game-porting-toolkit" do
-  on_sonoma :or_older do
+  on_sequoia :or_newer do
     version "2.1"
     sha256 "6a70069a977d59d8c4b7f9f29eee03c7ba75434cf22c016d342502ef7096a13b"
-
-    livecheck do
-      skip "Legacy version"
-    end
-  end
-  on_sequoia :or_newer do
-    version "3.0-beta1"
-    sha256 "2ed533de71b8f5a244e93e80e6ec6ca4c496482ba9adcbe5df15466afa792ea9"
 
     livecheck do
       url :url
@@ -58,7 +50,6 @@ cask "game-porting-toolkit" do
 
   caveats <<~EOS
     Please follow the instructions in the Game Porting Toolkit README to complete installation.
-    This cask is pinned to v2.1. Use github.com/Gcenx/homebrew-wine/ for up to date releases.
   EOS
   caveats do
     requires_rosetta
