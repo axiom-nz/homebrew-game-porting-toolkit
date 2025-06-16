@@ -5,3 +5,4 @@ Fork of [Gecnx/homebrew-wine](https://github.com/Gcenx/homebrew-wine), pinning t
 
 ## casks
 - `game-porting-toolkit` *(v2.1)*
+
